@@ -53,6 +53,9 @@ class Media extends RuleAbstract
                     $this->initMedia($media, $element);
                     $this->setUrl($media, $node, $this->getAttributeValue($element, "url"));
                     break;
+                case 'media:credit':
+                    $media->setContent($element->nodeValue);;
+                    break;
                 default:
                     $media
                         ->setType($this->getAttributeValue($element, 'type'))
