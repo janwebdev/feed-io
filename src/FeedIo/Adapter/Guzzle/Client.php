@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FeedIo\Adapter\Http;
+namespace FeedIo\Adapter\Guzzle;
 
 use DateTime;
 use FeedIo\Adapter\ClientInterface;
