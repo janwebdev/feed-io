@@ -1,5 +1,5 @@
 {
-    "name": "debril/feed-io",
+    "name": "janwebdev/feed-io",
     "description": "PHP library built to consume and serve JSONFeed / RSS / Atom feeds",
     "keywords": ["rss", "atom","jsonfeed", "feed", "news", "CLI", "client"],
     "homepage": "https://alexdebril.github.io/feed-io/",
