@@ -98,4 +98,8 @@ interface MediaInterface
      * @return MediaInterface
      */
     public function setThumbnail(?string $thumbnail): MediaInterface;
+
+        public function getContent(): ?string;
+
+    public function setContent(?string $content): MediaInterface;
 }
