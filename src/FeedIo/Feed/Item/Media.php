@@ -22,6 +22,8 @@ class Media implements MediaInterface, ArrayableInterface
 
     protected ?string $thumbnail = null;
 
+    protected ?string $content = null;
+
     /**
      * @return string|null
      */
@@ -151,6 +153,24 @@ class Media implements MediaInterface, ArrayableInterface
     public function setThumbnail(?string $thumbnail): MediaInterface
     {
         $this->thumbnail = $thumbnail;
+
+        return $this;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getContent(): ?string
+    {
+        return $this->content;
+    }
+
+    /**
+     * @param string|null $content
+     */
+    public function setContent(?string $content): MediaInterface
+    {
+        $this->content = $content;
 
         return $this;
     }
